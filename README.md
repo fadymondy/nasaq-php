@@ -1,4 +1,19 @@
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/fadymondy/nasaq/main/packages/brands/assets/nasaq-mark.svg" alt="Nasaq" width="80" />
+
 # nasaq-php
+
+**Nasaq for Laravel: Blade components, Alpine behaviours, Livewire and FilamentPHP, with Arabic and RTL built in.**
+
+[![CI](https://github.com/fadymondy/nasaq-php/actions/workflows/tests.yml/badge.svg)](https://github.com/fadymondy/nasaq-php/actions/workflows/tests.yml)
+[![Packagist](https://img.shields.io/packagist/v/fadymondy/nasaq-php.svg)](https://packagist.org/packages/fadymondy/nasaq-php)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/fadymondy/nasaq-php?style=social)](https://github.com/fadymondy/nasaq-php/stargazers)
+
+[Nasaq](https://github.com/fadymondy/nasaq) · [Docs](https://docs.nasaqui.com) · [Discussions](https://github.com/fadymondy/nasaq-php/discussions) · [Contributing](CONTRIBUTING.md)
+
+</div>
 
 [Nasaq](https://nasaqui.com) (نسق) for Laravel: Blade components (`<x-nq::button>`), Alpine behaviours, Livewire `wire:model` support and a FilamentPHP plugin. The markup and Tailwind classes match the React components, so a page looks the same in every stack. Arabic and RTL are native.
 
@@ -161,6 +176,20 @@ composer install
 vendor/bin/phpunit
 ```
 
+## Contributing
+
+Contributions are welcome: bug reports, component parity fixes with the React package, Livewire and Filament improvements. Read [CONTRIBUTING.md](CONTRIBUTING.md) for setup, conventions
+and the DCO sign-off, then look for
+[`good first issue`](https://github.com/fadymondy/nasaq-php/labels/good%20first%20issue).
+
+## Community
+
+- [GitHub Discussions](https://github.com/fadymondy/nasaq-php/discussions): questions, ideas, show and tell
+- [Issues](https://github.com/fadymondy/nasaq-php/issues/new/choose): bugs and feature requests
+- Security reports: see [SECURITY.md](SECURITY.md)
+
+Please follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT, © 2026 Fady Mondy. See [LICENSE](LICENSE).
